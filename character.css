@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background-color: darkgray;
+    background-image: url("modern-gold-background-free-vector.jpg");
+}
+
+header {
+
+    text-align: center;
+    
+    box-sizing: border-box;
+
+    height: 50px;
+    margin: 0;
+    padding-top: 10px;
+
+    
+
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+footer {
+    
+
+    
+    width: 100%;
+    height: 50px;
+
+    box-sizing: border-box;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: black;
+
+    position: fixed;
+    bottom: 0px;
+
+    /*top bottom left right*/
+}
+
+main {
+    box-sizing: border-box;
+    min-height: 600px;
+
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    /*x y szín*/
+    /*box-shadow: 10px 10px red;*/
+
+    /*x y elmosás szín*/
+
+    box-shadow: 
+    10px 10px 5px white,
+    10px 10px 15px 10px darkslategray;
+
+    /*background-color: black;*/
+
+    border-radius: 50px;
+
+}
+
+main h2 {
+    font-family: cursive;
+    text-align: center;
+    /*text-decoration: underline;*/
+
+    color: white;
+    text-shadow: 10px 10px 10px rgba(255, 253, 208, 0.747);
+
+}
+
+main form {
+    text-align: center;
+}
+
+main form input[type=text]{
+    
+    font-family: Franklin Gothic Medium;
+    margin: 10px;
+    padding: 8px;
+
+    text-align: center;
+
+    color: darkslategray;
+    border: none;
+    border-bottom: solid 1px ;
+}
+main form input[type=text]:placeholder-shown{
+    border: none;
+    border-bottom: solid 2px rgba(255, 255, 0, 0.863);
+}
+
+main form input[type=text]::placeholder{
+    color: darkslategray;
+}
+main form input{
+    
+
+    color: gray;
+    margin: 30px;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;    
+}
+
+main form input[type=submit]{
+
+    font-weight: 800;
+
+    border: solid 2px rgba(255, 255, 0, 0.863);
+}
+
+main form input[type=submit]:active {
+color: rgba(255, 255, 0, 0.863);
+border: solid 2px rgba(255, 255, 0, 0.863);
+}
+
+h3{
+    color: white;
+    margin-bottom: -10px;
+}

@@ -1,0 +1,20 @@
+body{
+    background-image: url("4515019448_ce32ec0dbf_b.jpg");
+    background-size: cover;
+}
+div {
+    width: 300px;
+    height: 100px;
+    background-color: darkslategray;
+    border: 1px solid white;
+    color: whitesmoke;
+  }
+  
+  div#myDiv {
+    transform: rotate(20deg);
+  }
+  
+  h1{
+    color: whitesmoke;
+    position: center;
+  }
